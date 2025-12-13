@@ -92,91 +92,86 @@
       </div>
     </section>
 
-    <!-- Roadmap Section -->
-    <section class="roadmap-section">
+    <!-- Self-Diagnosis Section -->
+    <section class="diagnosis-section">
       <div class="container">
-        <h2 class="section-title">お悩みロードマップ</h2>
+        <h2 class="section-title">簡易自己診断</h2>
         <p class="section-subtitle">
-          あなたのキャリアの悩みを整理し、最適な選択肢を見つけるためのロードマップ
+          3つの質問に答えて、あなたに最適なキャリアの方向性を見つけましょう
         </p>
 
-        <div class="roadmap-container">
-          <!-- START -->
-          <div class="roadmap-step">
-            <div class="roadmap-badge start">START</div>
-            <div class="roadmap-content">
-              <h3 class="roadmap-title">キャリアの悩み</h3>
-              <p class="roadmap-description">今の働き方、このままでいいのか不安...</p>
-            </div>
-          </div>
-
-          <div class="roadmap-arrow">
-            <i class="fas fa-arrow-down"></i>
-          </div>
-
-          <!-- 分岐点 -->
-          <div class="roadmap-step branch">
-            <div class="roadmap-badge">分岐点</div>
-            <div class="roadmap-content">
-              <h3 class="roadmap-title">自己分析・キャリアの棚卸し</h3>
-              <p class="roadmap-description">あなたの価値観・強み・理想を明確にします</p>
-            </div>
-          </div>
-
-          <div class="roadmap-arrow">
-            <i class="fas fa-arrow-down"></i>
-          </div>
-
-          <!-- 選択肢 -->
-          <div class="roadmap-branches">
-            <div class="roadmap-branch-item">
-              <div class="roadmap-number">①</div>
-              <div class="roadmap-branch-content">
-                <h4 class="roadmap-branch-title">自分の強みを活かせる場所を見つける</h4>
-                <div class="roadmap-arrow-small">
-                  <i class="fas fa-arrow-down"></i>
-                </div>
-                <div class="roadmap-result">
-                  <i class="fas fa-building"></i>
-                  <p>企業転職を選択肢に入れる</p>
-                </div>
+        <div class="diagnosis-container">
+          <!-- 質問エリア -->
+          <div class="diagnosis-questions" id="diagnosisQuestions">
+            <!-- Q1 -->
+            <div class="diagnosis-question active" data-question="1">
+              <div class="question-number">質問 1/3</div>
+              <h3 class="question-text">現在の職場で、3年後・5年後のキャリアが明確に見えていますか？</h3>
+              <div class="question-options">
+                <button class="option-btn" data-answer="no">
+                  <i class="fas fa-times-circle"></i>
+                  <span>見えていない</span>
+                </button>
+                <button class="option-btn" data-answer="yes">
+                  <i class="fas fa-check-circle"></i>
+                  <span>見えている</span>
+                </button>
               </div>
             </div>
 
-            <div class="roadmap-branch-item">
-              <div class="roadmap-number">②</div>
-              <div class="roadmap-branch-content">
-                <h4 class="roadmap-branch-title">思考を整理して今の職場の良さを知る</h4>
-                <div class="roadmap-arrow-small">
-                  <i class="fas fa-arrow-down"></i>
-                </div>
-                <div class="roadmap-result">
-                  <i class="fas fa-heart"></i>
-                  <p>納得して現場に残る</p>
-                </div>
+            <!-- Q2 -->
+            <div class="diagnosis-question" data-question="2">
+              <div class="question-number">質問 2/3</div>
+              <h3 class="question-text">医療現場以外（企業）で働くことに興味がありますか？</h3>
+              <div class="question-options">
+                <button class="option-btn" data-answer="no">
+                  <i class="fas fa-times-circle"></i>
+                  <span>興味がない</span>
+                </button>
+                <button class="option-btn" data-answer="yes">
+                  <i class="fas fa-check-circle"></i>
+                  <span>興味がある</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="diagnosis-question" data-question="3">
+              <div class="question-number">質問 3/3</div>
+              <h3 class="question-text">今の職場環境（夜勤・体力面・人間関係など）に満足していますか？</h3>
+              <div class="question-options">
+                <button class="option-btn" data-answer="no">
+                  <i class="fas fa-times-circle"></i>
+                  <span>満足していない</span>
+                </button>
+                <button class="option-btn" data-answer="yes">
+                  <i class="fas fa-check-circle"></i>
+                  <span>満足している</span>
+                </button>
               </div>
             </div>
           </div>
 
-          <div class="roadmap-arrow">
-            <i class="fas fa-arrow-down"></i>
-          </div>
-
-          <!-- GOAL -->
-          <div class="roadmap-step">
-            <div class="roadmap-badge goal">GOAL</div>
-            <div class="roadmap-content">
-              <h3 class="roadmap-title">納得のいくキャリア選択</h3>
-              <p class="roadmap-description">自分にとって最適な道を選び、前向きに進む</p>
+          <!-- 診断結果エリア -->
+          <div class="diagnosis-result" id="diagnosisResult" style="display: none;">
+            <div class="result-icon">
+              <i class="fas fa-clipboard-check"></i>
+            </div>
+            <h3 class="result-title">診断結果</h3>
+            <div class="result-content" id="resultContent"></div>
+            <div class="result-actions">
+              <a href="#contact" class="btn-primary">無料相談を申し込む</a>
+              <button class="btn-secondary" id="retryBtn">もう一度診断する</button>
             </div>
           </div>
-        </div>
 
-        <div class="roadmap-cta">
-          <p class="roadmap-cta-text">あなたの<strong>納得のいくキャリア選択</strong>を全力でサポートします</p>
-          <a href="#contact" class="btn-secondary">
-            無料相談を申し込む <i class="fas fa-arrow-right"></i>
-          </a>
+          <!-- プログレスバー -->
+          <div class="diagnosis-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <p class="progress-text" id="progressText">0 / 3 質問完了</p>
+          </div>
         </div>
       </div>
     </section>
@@ -627,5 +622,6 @@
   <script src="js/scroll-animation.js"></script>
   <script src="js/fixed-cta.js"></script>
   <script src="js/contact-form.js"></script>
+  <script src="js/diagnosis.js"></script>
 </body>
 </html>
