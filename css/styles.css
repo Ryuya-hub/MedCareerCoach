@@ -654,64 +654,36 @@ section {
 
 .result-content {
   background-color: var(--bg-gray);
-  padding: 32px;
+  padding: 40px 32px;
   border-radius: 12px;
   margin-bottom: 32px;
-  text-align: left;
+  text-align: center;
 }
 
 .result-type {
   display: inline-block;
   background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-dark) 100%);
   color: var(--white);
-  padding: 10px 24px;
-  border-radius: 24px;
-  font-size: 16px;
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-size: 22px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .result-description {
+  font-size: 17px;
+  color: var(--text-primary);
+  line-height: 2;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.result-cta {
   font-size: 16px;
   color: var(--text-secondary);
-  line-height: 1.9;
-  margin-bottom: 20px;
-}
-
-.result-recommendation {
-  background-color: var(--white);
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 4px solid var(--accent-color);
-}
-
-.result-recommendation h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin-bottom: 12px;
-}
-
-.result-recommendation ul {
-  list-style: none;
-  padding: 0;
-}
-
-.result-recommendation li {
-  font-size: 15px;
-  color: var(--text-secondary);
   line-height: 1.8;
-  margin-bottom: 8px;
-  padding-left: 24px;
-  position: relative;
-}
-
-.result-recommendation li::before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  color: var(--accent-color);
-  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .result-actions {
@@ -2046,7 +2018,20 @@ section {
   }
 
   .result-content {
-    padding: 24px 20px;
+    padding: 32px 20px;
+  }
+
+  .result-type {
+    font-size: 20px;
+    padding: 10px 24px;
+  }
+
+  .result-description {
+    font-size: 16px;
+  }
+
+  .result-cta {
+    font-size: 15px;
   }
 
   /* Service Features */
