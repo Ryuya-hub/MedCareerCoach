@@ -2058,23 +2058,52 @@ section {
   }
 
   /* Program */
+  .program-phase {
+    margin-bottom: 40px;
+  }
+
   .phase-content {
     grid-template-columns: 1fr;
-    padding: 28px 24px;
+    padding: 24px 20px;
+    gap: 20px;
+  }
+
+  .phase-image {
+    text-align: center;
   }
 
   .phase-image img {
-    width: 100%;
-    height: auto;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0 auto;
   }
 
   .phase-header {
-    padding: 24px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .phase-badge {
+    font-size: 13px;
+    padding: 5px 14px;
+    margin-bottom: 10px;
   }
 
   .phase-title {
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .phase-list {
+    margin-bottom: 0;
+  }
+
+  .phase-list li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.6;
   }
 
   /* Pricing */
