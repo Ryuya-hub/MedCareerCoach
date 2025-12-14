@@ -1,624 +1,740 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="医療従事者向けキャリアコーチング。元医療従事者があなたの企業転職を完全カスタマイズでサポート。看護師・PT・OT・ST専門。">
-  <meta name="keywords" content="医療従事者,キャリアコーチング,転職,看護師,理学療法士,作業療法士,言語聴覚士">
-  <meta name="robots" content="noindex, nofollow">
-  <title>MediShift - 医療従事者向けキャリアコーチング</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="医療従事者向けキャリアコーチング。元医療従事者があなたの企業転職を完全カスタマイズでサポート。看護師・PT・OT・ST専門。"
+    />
+    <meta
+      name="keywords"
+      content="医療従事者,キャリアコーチング,転職,看護師,理学療法士,作業療法士,言語聴覚士"
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>MediShift - 医療従事者向けキャリアコーチング</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <!-- Header -->
-  <header class="header">
-    <div class="header-container">
-      <div class="header-logo">
-        <a href="#top"><img src="images/logo.png.png" alt="MediShift" class="logo-image"><span class="logo-text">MediShift</span></a>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="#top"
+            ><img
+              src="images/logo.png.png"
+              alt="MediShift"
+              class="logo-image"
+            /><span class="logo-text">MediShift</span></a
+          >
+        </div>
+
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li><a href="#diagnosis">簡易自己診断</a></li>
+            <li><a href="#program">プログラム</a></li>
+            <li><a href="#staff">スタッフ</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-cta">
+          <a href="#contact" class="btn-primary">無料相談申し込み</a>
+        </div>
+
+        <!-- Hamburger Menu (Mobile) -->
+        <button class="hamburger" aria-label="メニューを開く">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
       </div>
 
-      <nav class="header-nav">
+      <!-- Drawer Menu (Mobile) -->
+      <nav class="drawer-menu">
         <ul class="nav-list">
           <li><a href="#diagnosis">簡易自己診断</a></li>
           <li><a href="#program">プログラム</a></li>
           <li><a href="#staff">スタッフ</a></li>
           <li><a href="#faq">FAQ</a></li>
+          <li class="drawer-cta">
+            <a href="#contact" class="btn-primary">無料相談申し込み</a>
+          </li>
         </ul>
       </nav>
+    </header>
 
-      <div class="header-cta">
-        <a href="#contact" class="btn-primary">無料相談申し込み</a>
-      </div>
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="top">
+        <div class="hero-container">
+          <div class="hero-content">
+            <p class="hero-label">看護師・PT・OT・ST専門</p>
+            <h1 class="hero-title">
+              元医療従事者が<br />
+              あなたの転職を<br class="sp-only" />完全サポート
+            </h1>
+            <p class="hero-subtitle">
+              医療現場のリアルを知るからこそ、<br
+                class="sp-only"
+              />できる支援。<br />
+              あなたの強みを見つけ、<br
+                class="sp-only"
+              />理想の企業転職を実現します。
+            </p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn-primary btn-large">
+                <i class="fas fa-calendar-check"></i> 無料相談を申し込む
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              src="images/hero-image.jpg"
+              alt="医療従事者のキャリア支援 - 前向きに働く医療従事者"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
 
-      <!-- Hamburger Menu (Mobile) -->
-      <button class="hamburger" aria-label="メニューを開く">
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-      </button>
-    </div>
-
-    <!-- Drawer Menu (Mobile) -->
-    <nav class="drawer-menu">
-      <ul class="nav-list">
-        <li><a href="#diagnosis">簡易自己診断</a></li>
-        <li><a href="#program">プログラム</a></li>
-        <li><a href="#staff">スタッフ</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li class="drawer-cta">
-          <a href="#contact" class="btn-primary">無料相談申し込み</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Main Content -->
-  <main>
-    <!-- Hero Section -->
-    <section class="hero" id="top">
-      <div class="hero-container">
-        <div class="hero-content">
-          <p class="hero-label">看護師・PT・OT・ST専門</p>
-          <h1 class="hero-title">
-            元医療従事者が<br>
-            あなたの転職を<br class="sp-only">完全サポート
-          </h1>
-          <p class="hero-subtitle">
-            医療現場のリアルを知るからこそ、<br class="sp-only">できる支援。<br>
-            あなたの強みを見つけ、<br class="sp-only">理想の企業転職を実現します。
+      <!-- Self-Diagnosis Section -->
+      <section class="diagnosis-section" id="diagnosis">
+        <div class="container">
+          <h2 class="section-title">簡易自己診断</h2>
+          <p class="section-subtitle">
+            3つの質問に答えて、あなたに最適なキャリアの方向性を見つけましょう
           </p>
-          <div class="hero-cta">
-            <a href="#contact" class="btn-primary btn-large">
-              <i class="fas fa-calendar-check"></i> 無料相談を申し込む
-            </a>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="images/hero-image.jpg" alt="医療従事者のキャリア支援 - 前向きに働く医療従事者" loading="lazy">
-        </div>
-      </div>
-    </section>
 
-    <!-- Self-Diagnosis Section -->
-    <section class="diagnosis-section" id="diagnosis">
-      <div class="container">
-        <h2 class="section-title">簡易自己診断</h2>
-        <p class="section-subtitle">
-          3つの質問に答えて、あなたに最適なキャリアの方向性を見つけましょう
-        </p>
-
-        <div class="diagnosis-container">
-          <!-- 質問エリア -->
-          <div class="diagnosis-questions" id="diagnosisQuestions">
-            <!-- Q1 -->
-            <div class="diagnosis-question active" data-question="1">
-              <div class="question-number">質問 1/3</div>
-              <h3 class="question-text">現在の職場で、3年後・5年後のキャリアが明確に見えていますか？</h3>
-              <div class="question-options">
-                <button class="option-btn" data-answer="no">
-                  <i class="fas fa-times-circle"></i>
-                  <span>見えていない</span>
-                </button>
-                <button class="option-btn" data-answer="yes">
-                  <i class="fas fa-check-circle"></i>
-                  <span>見えている</span>
-                </button>
+          <div class="diagnosis-container">
+            <!-- 質問エリア -->
+            <div class="diagnosis-questions" id="diagnosisQuestions">
+              <!-- Q1 -->
+              <div class="diagnosis-question active" data-question="1">
+                <div class="question-number">質問 1/3</div>
+                <h3 class="question-text">
+                  現在の職場で、3年後・5年後のキャリアが明確に見えていますか？
+                </h3>
+                <div class="question-options">
+                  <button class="option-btn" data-answer="no">
+                    <i class="fas fa-times-circle"></i>
+                    <span>見えていない</span>
+                  </button>
+                  <button class="option-btn" data-answer="yes">
+                    <i class="fas fa-check-circle"></i>
+                    <span>見えている</span>
+                  </button>
+                </div>
               </div>
-            </div>
 
-            <!-- Q2 -->
-            <div class="diagnosis-question" data-question="2">
-              <div class="question-number">質問 2/3</div>
-              <h3 class="question-text">医療現場以外（企業）で働くことに興味がありますか？</h3>
-              <div class="question-options">
-                <button class="option-btn" data-answer="no">
-                  <i class="fas fa-times-circle"></i>
-                  <span>興味がない</span>
-                </button>
-                <button class="option-btn" data-answer="yes">
-                  <i class="fas fa-check-circle"></i>
-                  <span>興味がある</span>
-                </button>
+              <!-- Q2 -->
+              <div class="diagnosis-question" data-question="2">
+                <div class="question-number">質問 2/3</div>
+                <h3 class="question-text">
+                  医療現場以外（企業）で働くことに興味がありますか？
+                </h3>
+                <div class="question-options">
+                  <button class="option-btn" data-answer="no">
+                    <i class="fas fa-times-circle"></i>
+                    <span>興味がない</span>
+                  </button>
+                  <button class="option-btn" data-answer="yes">
+                    <i class="fas fa-check-circle"></i>
+                    <span>興味がある</span>
+                  </button>
+                </div>
               </div>
-            </div>
 
-            <!-- Q3 -->
-            <div class="diagnosis-question" data-question="3">
-              <div class="question-number">質問 3/3</div>
-              <h3 class="question-text">今の職場環境（夜勤・体力面・人間関係など）に満足していますか？</h3>
-              <div class="question-options">
-                <button class="option-btn" data-answer="no">
-                  <i class="fas fa-times-circle"></i>
-                  <span>満足していない</span>
-                </button>
-                <button class="option-btn" data-answer="yes">
-                  <i class="fas fa-check-circle"></i>
-                  <span>満足している</span>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- 診断結果エリア -->
-          <div class="diagnosis-result" id="diagnosisResult" style="display: none;">
-            <div class="result-icon">
-              <i class="fas fa-clipboard-check"></i>
-            </div>
-            <h3 class="result-title">診断結果</h3>
-            <div class="result-content" id="resultContent"></div>
-            <div class="result-actions">
-              <a href="#contact" class="btn-primary">無料相談を申し込む</a>
-              <button class="btn-secondary" id="retryBtn">もう一度診断する</button>
-            </div>
-          </div>
-
-          <!-- プログレスバー -->
-          <div class="diagnosis-progress">
-            <div class="progress-bar">
-              <div class="progress-fill" id="progressFill"></div>
-            </div>
-            <p class="progress-text" id="progressText">0 / 3 質問完了</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Program Section -->
-    <section class="program-section" id="program">
-      <div class="container">
-        <h2 class="section-title">3ヶ月プログラムの流れ</h2>
-        <p class="section-subtitle">
-          段階的なサポートで、無理なくキャリアチェンジを実現します
-        </p>
-
-        <div class="program-timeline">
-          <!-- Phase 1 -->
-          <div class="program-phase">
-            <div class="phase-header">
-              <div class="phase-badge">1ヶ月目</div>
-              <h3 class="phase-title">自己分析・キャリア棚卸し</h3>
-            </div>
-            <div class="phase-content">
-              <div class="phase-image">
-                <img src="images/program-phase1.jpg" alt="1ヶ月目 - 自己分析とキャリアの棚卸し" loading="lazy">
-              </div>
-              <div class="phase-details">
-                <ul class="phase-list">
-                  <li><i class="fas fa-check"></i> モチベーショングラフ作成</li>
-                  <li><i class="fas fa-check"></i> MBTI・ストレングスファインダー分析</li>
-                  <li><i class="fas fa-check"></i> Will・Can・Must分析</li>
-                  <li><i class="fas fa-check"></i> 人生の軸・価値観の明確化</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- Phase 2 -->
-          <div class="program-phase">
-            <div class="phase-header">
-              <div class="phase-badge">2ヶ月目</div>
-              <h3 class="phase-title">業界・職種リサーチ / キャリア設計</h3>
-            </div>
-            <div class="phase-content">
-              <div class="phase-image">
-                <img src="images/program-phase2.jpg" alt="2ヶ月目 - 企業研究と業界理解" loading="lazy">
-              </div>
-              <div class="phase-details">
-                <ul class="phase-list">
-                  <li><i class="fas fa-check"></i> 業界・職種リサーチ</li>
-                  <li><i class="fas fa-check"></i> キャリア仮説設計</li>
-                  <li><i class="fas fa-check"></i> 履歴書・職務経歴書添削</li>
-                  <li><i class="fas fa-check"></i> 企業分析・企業研究</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- Phase 3 -->
-          <div class="program-phase">
-            <div class="phase-header">
-              <div class="phase-badge">3ヶ月目</div>
-              <h3 class="phase-title">転職活動伴走 / 面接対策</h3>
-            </div>
-            <div class="phase-content">
-              <div class="phase-image">
-                <img src="images/program-phase3.jpg" alt="3ヶ月目 - 面接対策と内定獲得" loading="lazy">
-              </div>
-              <div class="phase-details">
-                <ul class="phase-list">
-                  <li><i class="fas fa-check"></i> 面接対策（模擬面接含む）</li>
-                  <li><i class="fas fa-check"></i> 企業への応募サポート</li>
-                  <li><i class="fas fa-check"></i> 内定後の意思決定支援</li>
-                  <li><i class="fas fa-check"></i> 転職後の定着面談</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- Phase 4 -->
-          <div class="program-phase">
-            <div class="phase-header">
-              <div class="phase-badge">おまけ</div>
-              <h3 class="phase-title">就職前のスキルアップ支援</h3>
-            </div>
-            <div class="phase-content">
-              <div class="phase-image">
-                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop" alt="おまけ - 就職前のスキルアップ" loading="lazy">
-              </div>
-              <div class="phase-details">
-                <ul class="phase-list">
-                  <li><i class="fas fa-check"></i> Excel基礎・実践操作（関数・ピボットテーブル等）</li>
-                  <li><i class="fas fa-check"></i> PowerPoint資料作成スキル</li>
-                  <li><i class="fas fa-check"></i> ビジネスメール・文書作成</li>
-                  <li><i class="fas fa-check"></i> IT基礎スキル・ビジネスマナー</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Staff Section -->
-    <section class="staff-section" id="staff">
-      <div class="container">
-        <h2 class="section-title">スタッフ紹介</h2>
-        <p class="section-subtitle">
-          医療現場と企業、両方を経験したコーチがあなたをサポート
-        </p>
-
-        <div class="staff-grid">
-          <!-- Staff: Murata -->
-          <div class="staff-card">
-            <div class="staff-image">
-              <img src="images/staff-murata.jpg.png" alt="村田 - 元看護師・現役コンサルタント" loading="lazy">
-              <div class="staff-badge">代表</div>
-            </div>
-            <div class="staff-info">
-              <h3 class="staff-name">むらた</h3>
-              <p class="staff-role">元看護師・現役コンサルタント</p>
-
-              <div class="staff-profile">
-                <h4 class="profile-heading">プロフィール</h4>
-                <p class="profile-text">
-                  大手企業在職中で、医療現場と企業文化の両方を深く理解。看護師として勤務した後、企業転職を実現。現在は大手企業でコンサルタントとして活躍中。
-                </p>
-
-                <h4 class="profile-heading">得意領域</h4>
-                <ul class="profile-skills">
-                  <li><i class="fas fa-check-circle"></i> 言語化・戦略化</li>
-                  <li><i class="fas fa-check-circle"></i> キャリアプラン設計</li>
-                  <li><i class="fas fa-check-circle"></i> 履歴書・職務経歴書添削</li>
-                </ul>
-
-                <div class="staff-message">
-                  <i class="fas fa-quote-left"></i>
-                  <p>医療現場で培ったスキルは、企業でも十分通用します。私自身の経験を活かし、あなたの転職を全力でサポートします。</p>
-                  <i class="fas fa-quote-right"></i>
+              <!-- Q3 -->
+              <div class="diagnosis-question" data-question="3">
+                <div class="question-number">質問 3/3</div>
+                <h3 class="question-text">
+                  今の職場環境（夜勤・体力面・人間関係など）に満足していますか？
+                </h3>
+                <div class="question-options">
+                  <button class="option-btn" data-answer="no">
+                    <i class="fas fa-times-circle"></i>
+                    <span>満足していない</span>
+                  </button>
+                  <button class="option-btn" data-answer="yes">
+                    <i class="fas fa-check-circle"></i>
+                    <span>満足している</span>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Staff: Hayashi -->
-          <div class="staff-card">
-            <div class="staff-image">
-              <img src="images/staff-hayashi.jpg.png" alt="林 - 元理学療法士・現役プロダクトマネージャー" loading="lazy">
-              <div class="staff-badge">メンバー</div>
+            <!-- 診断結果エリア -->
+            <div
+              class="diagnosis-result"
+              id="diagnosisResult"
+              style="display: none"
+            >
+              <div class="result-icon">
+                <i class="fas fa-clipboard-check"></i>
+              </div>
+              <h3 class="result-title">診断結果</h3>
+              <div class="result-content" id="resultContent"></div>
+              <div class="result-actions">
+                <a href="#contact" class="btn-primary">無料相談を申し込む</a>
+                <button class="btn-secondary" id="retryBtn">
+                  もう一度診断する
+                </button>
+              </div>
             </div>
-            <div class="staff-info">
-              <h3 class="staff-name">はやし</h3>
-              <p class="staff-role">元理学療法士・現役PDM / 事業開発担当</p>
 
-              <div class="staff-profile">
-                <h4 class="profile-heading">プロフィール</h4>
-                <p class="profile-text">
-                  理学療法士として勤務後、IT/ヘルステックのベンチャー企業に転職。現在はプロダクトマネージャーとして新規事業開発に従事。
-                </p>
+            <!-- プログレスバー -->
+            <div class="diagnosis-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+              </div>
+              <p class="progress-text" id="progressText">0 / 3 質問完了</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <h4 class="profile-heading">得意領域</h4>
-                <ul class="profile-skills">
-                  <li><i class="fas fa-check-circle"></i> 社内DX</li>
-                  <li><i class="fas fa-check-circle"></i> データ分析</li>
-                  <li><i class="fas fa-check-circle"></i> 面接対策</li>
-                </ul>
+      <!-- Program Section -->
+      <section class="program-section" id="program">
+        <div class="container">
+          <h2 class="section-title">3ヶ月プログラムの流れ</h2>
+          <p class="section-subtitle">
+            段階的なサポートで、無理なくキャリアチェンジを実現します
+          </p>
 
-                <div class="staff-message">
-                  <i class="fas fa-quote-left"></i>
-                  <p>国家資格は最強の保険です。日々に満足できていないのであれば、現状に甘んじず一歩を踏み出してみましょう。仮に失敗しても医療従事者に戻れば良いだけなのです。</p>
-                  <i class="fas fa-quote-right"></i>
+          <div class="program-timeline">
+            <!-- Phase 1 -->
+            <div class="program-phase">
+              <div class="phase-header">
+                <div class="phase-badge">1ヶ月目</div>
+                <h3 class="phase-title">自己分析・キャリア棚卸し</h3>
+              </div>
+              <div class="phase-content">
+                <div class="phase-image">
+                  <img
+                    src="images/program-phase1.jpg"
+                    alt="1ヶ月目 - 自己分析とキャリアの棚卸し"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="phase-details">
+                  <ul class="phase-list">
+                    <li>
+                      <i class="fas fa-check"></i> これまでのキャリアの振り返り
+                    </li>
+                    <li><i class="fas fa-check"></i> 自己理解を深めるワーク</li>
+                    <li><i class="fas fa-check"></i> 強みや適性の発掘</li>
+                    <li>
+                      <i class="fas fa-check"></i> 理想のライフプランの設計
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="program-phase">
+              <div class="phase-header">
+                <div class="phase-badge">2ヶ月目</div>
+                <h3 class="phase-title">業界・職種リサーチ / キャリア設計</h3>
+              </div>
+              <div class="phase-content">
+                <div class="phase-image">
+                  <img
+                    src="images/program-phase2.jpg"
+                    alt="2ヶ月目 - 企業研究と業界理解"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="phase-details">
+                  <ul class="phase-list">
+                    <li><i class="fas fa-check"></i> 業界・職種リサーチ</li>
+                    <li><i class="fas fa-check"></i> キャリア仮説設計</li>
+                    <li><i class="fas fa-check"></i> 履歴書・職務経歴書添削</li>
+                    <li><i class="fas fa-check"></i> 企業分析・企業研究</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="program-phase">
+              <div class="phase-header">
+                <div class="phase-badge">3ヶ月目</div>
+                <h3 class="phase-title">転職活動伴走 / 面接対策</h3>
+              </div>
+              <div class="phase-content">
+                <div class="phase-image">
+                  <img
+                    src="images/program-phase3.jpg"
+                    alt="3ヶ月目 - 面接対策と内定獲得"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="phase-details">
+                  <ul class="phase-list">
+                    <li>
+                      <i class="fas fa-check"></i> 面接対策（模擬面接含む）
+                    </li>
+                    <li><i class="fas fa-check"></i> 企業への応募サポート</li>
+                    <li><i class="fas fa-check"></i> 内定後の意思決定支援</li>
+                    <li><i class="fas fa-check"></i> 転職後の定着面談</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="program-phase">
+              <div class="phase-header">
+                <div class="phase-badge">おまけ</div>
+                <h3 class="phase-title">就職前のスキルアップ支援</h3>
+              </div>
+              <div class="phase-content">
+                <div class="phase-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop"
+                    alt="おまけ - 就職前のスキルアップ"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="phase-details">
+                  <ul class="phase-list">
+                    <li>
+                      <i class="fas fa-check"></i>
+                      Excel基礎・実践操作（関数・ピボットテーブル等）
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> PowerPoint資料作成スキル
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> ビジネスメール・文書作成
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i> IT基礎スキル・ビジネスマナー
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- FAQ Section -->
-    <section class="faq-section" id="faq">
-      <div class="container">
-        <h2 class="section-title">よくある質問</h2>
+      <!-- Staff Section -->
+      <section class="staff-section" id="staff">
+        <div class="container">
+          <h2 class="section-title">スタッフ紹介</h2>
+          <p class="section-subtitle">
+            医療現場と企業、両方を経験したコーチがあなたをサポート
+          </p>
 
-        <div class="faq-list">
-          <!-- FAQ 1 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">転職を迷っている段階でも相談できますか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">もちろんです。「医療職を続けるべきか、企業転職すべきか」という段階からご相談いただけます。自己分析を通じて、あなたに最適なキャリアを一緒に考えましょう。</p>
+          <div class="staff-grid">
+            <!-- Staff: Murata -->
+            <div class="staff-card">
+              <div class="staff-image">
+                <img
+                  src="images/staff-murata.jpg.png"
+                  alt="村田 - 元看護師・現役コンサルタント"
+                  loading="lazy"
+                />
+                <div class="staff-badge">代表</div>
+              </div>
+              <div class="staff-info">
+                <h3 class="staff-name">むらた</h3>
+                <p class="staff-role">元看護師・現役コンサルタント</p>
+
+                <div class="staff-profile">
+                  <h4 class="profile-heading">プロフィール</h4>
+                  <p class="profile-text">
+                    大手企業在職中で、医療現場と企業文化の両方を深く理解。看護師として勤務した後、企業転職を実現。現在は大手企業でコンサルタントとして活躍中。
+                  </p>
+
+                  <h4 class="profile-heading">得意領域</h4>
+                  <ul class="profile-skills">
+                    <li><i class="fas fa-check-circle"></i> 言語化・戦略化</li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> キャリアプラン設計
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> 履歴書・職務経歴書添削
+                    </li>
+                  </ul>
+
+                  <div class="staff-message">
+                    <i class="fas fa-quote-left"></i>
+                    <p>
+                      医療現場で培ったスキルは、企業でも十分通用します。私自身の経験を活かし、あなたの転職を全力でサポートします。
+                    </p>
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <!-- FAQ 2 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">転職エージェントとの違いは何ですか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">転職エージェントは求人紹介が中心ですが、当サービスは自己分析・キャリア設計からサポート。「どんな企業に行きたいか」ではなく「どんなキャリアを築きたいか」を一緒に考えます。もちろん、転職エージェントとの併用もOKです。</p>
+            <!-- Staff: Hayashi -->
+            <div class="staff-card">
+              <div class="staff-image">
+                <img
+                  src="images/staff-hayashi.jpg.png"
+                  alt="林 - 元理学療法士・現役プロダクトマネージャー"
+                  loading="lazy"
+                />
+                <div class="staff-badge">メンバー</div>
               </div>
-            </div>
-          </div>
+              <div class="staff-info">
+                <h3 class="staff-name">はやし</h3>
+                <p class="staff-role">元理学療法士・現役PDM / 事業開発担当</p>
 
-          <!-- FAQ 3 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">3ヶ月で本当に転職できますか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">個人差はありますが、多くの方が3〜6ヶ月で転職を実現しています。3ヶ月のプログラム終了後も、転職が決まるまでチャット相談は継続可能です。焦らず、納得のいくキャリア選択をサポートします。</p>
-              </div>
-            </div>
-          </div>
+                <div class="staff-profile">
+                  <h4 class="profile-heading">プロフィール</h4>
+                  <p class="profile-text">
+                    理学療法士として勤務後、IT/ヘルステックのベンチャー企業に転職。現在はプロダクトマネージャーとして新規事業開発に従事。
+                  </p>
 
-          <!-- FAQ 4 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">地方在住でも利用できますか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">はい、すべてオンラインで完結しますので、全国どこからでもご利用いただけます。面談はZoomやGoogle Meetで実施し、チャット相談はSlackやLINEで行います。</p>
-              </div>
-            </div>
-          </div>
+                  <h4 class="profile-heading">得意領域</h4>
+                  <ul class="profile-skills">
+                    <li><i class="fas fa-check-circle"></i> 社内DX</li>
+                    <li><i class="fas fa-check-circle"></i> データ分析</li>
+                    <li><i class="fas fa-check-circle"></i> 面接対策</li>
+                  </ul>
 
-          <!-- FAQ 5 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">どんな職種への転職が可能ですか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">医療機器メーカー、ヘルステック企業、製薬会社、医療系コンサル、保険会社、介護テック企業など、医療知識を活かせる幅広い職種への転職実績があります。営業、マーケティング、PM、コンサルタントなど、あなたの強みに合わせた職種をご提案します。</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 6 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">面談の頻度はどのくらいですか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">基本的には週1回のペースで面談を行いますが、回数制限はありません。転職活動の進捗や、ご相談内容に応じて柔軟に調整可能です。チャット相談も無制限でご利用いただけます。</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 7 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">働きながらでも受講できますか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">はい、ほとんどの方が働きながら受講されています。面談は夜間や休日にも対応しており、オンラインなので移動時間も不要です。あなたのライフスタイルに合わせて柔軟にスケジュール調整いたします。</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 8 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">どのくらいの期間で転職できますか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">個人差がありますが、3ヶ月のプログラム期間中に転職活動を開始し、プログラム終了後1〜3ヶ月で内定を獲得される方が多いです。ただし、転職成功のタイミングは市場環境や応募企業により異なるため、焦らず納得のいく転職を目指しましょう。</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 9 -->
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span class="faq-q-icon">Q</span>
-              <span class="faq-q-text">プログラム終了後もサポートを受けられますか？</span>
-              <i class="fas fa-plus faq-toggle"></i>
-            </button>
-            <div class="faq-answer" aria-hidden="true">
-              <div class="faq-a-content">
-                <span class="faq-a-icon">A</span>
-                <p class="faq-a-text">はい、転職が決まるまでチャット相談は継続可能です。また、転職後も3ヶ月間のフォロー面談を行い、新しい職場での定着をサポートします。長期的にあなたのキャリアを見守ります。</p>
+                  <div class="staff-message">
+                    <i class="fas fa-quote-left"></i>
+                    <p>
+                      国家資格は最強の保険です。日々に満足できていないのであれば、現状に甘んじず一歩を踏み出してみましょう。仮に失敗しても医療従事者に戻れば良いだけなのです。
+                    </p>
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
-      <div class="container">
-        <h2 class="section-title">無料相談申し込み</h2>
-        <p class="section-subtitle">
-          あなたのキャリアについて、まずはお気軽にご相談ください。<br>
-          30分〜60分のオンライン面談で、現在の悩みやキャリアの方向性について一緒に考えます。
-        </p>
+      <!-- FAQ Section -->
+      <section class="faq-section" id="faq">
+        <div class="container">
+          <h2 class="section-title">よくある質問</h2>
 
-        <div class="form-container">
-          <form id="contact-form" class="contact-form">
-            <div class="form-group">
-              <label for="name" class="form-label">
-                お名前 <span class="required">必須</span>
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                class="form-input"
-                placeholder="山田 太郎"
-                required
-              >
-            </div>
-
-            <div class="form-group">
-              <label for="occupation" class="form-label">
-                現在の職種 <span class="required">必須</span>
-              </label>
-              <select id="occupation" name="occupation" class="form-select" required>
-                <option value="">選択してください</option>
-                <option value="看護師">看護師</option>
-                <option value="PT">PT（理学療法士）</option>
-                <option value="OT">OT（作業療法士）</option>
-                <option value="ST">ST（言語聴覚士）</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="consultation-type" class="form-label">
-                相談内容 <span class="required">必須</span>
-              </label>
-              <select id="consultation-type" name="consultation-type" class="form-select" required>
-                <option value="">選択してください</option>
-                <option value="まずは気軽に相談！">まずは気軽に相談！</option>
-                <option value="すでに動いている転職活動支援の相談！">すでに動いている転職活動支援の相談！</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="message" class="form-label">
-                運営へのメッセージ <span class="optional">任意</span>
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                class="form-textarea"
-                rows="6"
-                placeholder="ご質問やご要望などがあればご記入ください"
-              ></textarea>
-            </div>
-
-            <div class="form-submit">
-              <button type="submit" class="btn-primary btn-large">
-                <i class="fas fa-paper-plane"></i> 送信する
+          <div class="faq-list">
+            <!-- FAQ 1 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text"
+                  >転職を迷っている段階でも相談できますか？</span
+                >
+                <i class="fas fa-plus faq-toggle"></i>
               </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    もちろんです。「医療職を続けるべきか、企業転職すべきか」という段階からご相談いただけます。自己分析を通じて、あなたに最適なキャリアを一緒に考えましょう。
+                  </p>
+                </div>
+              </div>
             </div>
-          </form>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text"
+                  >転職エージェントとの違いは何ですか？</span
+                >
+                <i class="fas fa-plus faq-toggle"></i>
+              </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    転職エージェントは求人紹介が中心ですが、当サービスは自己分析・キャリア設計からサポート。「どんな企業に行きたいか」ではなく「どんなキャリアを築きたいか」を一緒に考えます。もちろん、転職エージェントとの併用もOKです。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text">3ヶ月で本当に転職できますか？</span>
+                <i class="fas fa-plus faq-toggle"></i>
+              </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    個人差はありますが、多くの方が3〜6ヶ月で転職を実現しています。3ヶ月のプログラム終了後も、転職が決まるまでチャット相談は継続可能です。焦らず、納得のいくキャリア選択をサポートします。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text">地方在住でも利用できますか？</span>
+                <i class="fas fa-plus faq-toggle"></i>
+              </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    はい、すべてオンラインで完結しますので、全国どこからでもご利用いただけます。面談はZoomやGoogle
+                    Meetで実施し、チャット相談はSlackやLINEで行います。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text">どんな職種への転職が可能ですか？</span>
+                <i class="fas fa-plus faq-toggle"></i>
+              </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    医療機器メーカー、ヘルステック企業、製薬会社、医療系コンサル、保険会社、介護テック企業など、医療知識を活かせる幅広い職種への転職実績があります。営業、マーケティング、PM、コンサルタントなど、あなたの強みに合わせた職種をご提案します。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 6 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text">面談の頻度はどのくらいですか？</span>
+                <i class="fas fa-plus faq-toggle"></i>
+              </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    基本的には週1回のペースで面談を行いますが、回数制限はありません。転職活動の進捗や、ご相談内容に応じて柔軟に調整可能です。チャット相談も無制限でご利用いただけます。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 7 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text">働きながらでも受講できますか？</span>
+                <i class="fas fa-plus faq-toggle"></i>
+              </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    はい、ほとんどの方が働きながら受講されています。面談は夜間や休日にも対応しており、オンラインなので移動時間も不要です。あなたのライフスタイルに合わせて柔軟にスケジュール調整いたします。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- FAQ 9 -->
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-q-icon">Q</span>
+                <span class="faq-q-text"
+                  >プログラム終了後もサポートを受けられますか？</span
+                >
+                <i class="fas fa-plus faq-toggle"></i>
+              </button>
+              <div class="faq-answer" aria-hidden="true">
+                <div class="faq-a-content">
+                  <span class="faq-a-icon">A</span>
+                  <p class="faq-a-text">
+                    はい、転職が決まるまでチャット相談は継続可能です。また、転職後も3ヶ月間のフォロー面談を行い、新しい職場での定着をサポートします。長期的にあなたのキャリアを見守ります。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <h2 class="section-title">無料相談申し込み</h2>
+          <p class="section-subtitle">
+            あなたのキャリアについて、まずはお気軽にご相談ください。<br />
+            30分〜60分のオンライン面談で、現在の悩みやキャリアの方向性について一緒に考えます。
+          </p>
+
+          <div class="form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name" class="form-label">
+                  お名前 <span class="required">必須</span>
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="山田 太郎"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="occupation" class="form-label">
+                  現在の職種 <span class="required">必須</span>
+                </label>
+                <select
+                  id="occupation"
+                  name="occupation"
+                  class="form-select"
+                  required
+                >
+                  <option value="">選択してください</option>
+                  <option value="看護師">看護師</option>
+                  <option value="PT">PT（理学療法士）</option>
+                  <option value="OT">OT（作業療法士）</option>
+                  <option value="ST">ST（言語聴覚士）</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="consultation-type" class="form-label">
+                  相談内容 <span class="required">必須</span>
+                </label>
+                <select
+                  id="consultation-type"
+                  name="consultation-type"
+                  class="form-select"
+                  required
+                >
+                  <option value="">選択してください</option>
+                  <option value="まずは気軽に相談！">まずは気軽に相談！</option>
+                  <option value="すでに動いている転職活動支援の相談！">
+                    すでに動いている転職活動支援の相談！
+                  </option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">
+                  運営へのメッセージ <span class="optional">任意</span>
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  rows="6"
+                  placeholder="ご質問やご要望などがあればご記入ください"
+                ></textarea>
+              </div>
+
+              <div class="form-submit">
+                <button type="submit" class="btn-primary btn-large">
+                  <i class="fas fa-paper-plane"></i> 送信する
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact-note">
+            <p>
+              <i class="fas fa-shield-alt"></i> お預かりした個人情報は、<a
+                href="privacy.html"
+                target="_blank"
+                >プライバシーポリシー</a
+              >に基づき適切に管理いたします。
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              24時間以内にメールにてご連絡いたします。
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-about">
+          <div class="footer-logo">MediShift</div>
+          <p class="footer-description">
+            医療従事者向けキャリアコーチング。元医療従事者があなたの企業転職を完全カスタマイズでサポートします。
+          </p>
         </div>
 
-        <div class="contact-note">
-          <p><i class="fas fa-shield-alt"></i> お預かりした個人情報は、<a href="privacy.html" target="_blank">プライバシーポリシー</a>に基づき適切に管理いたします。</p>
-          <p><i class="fas fa-clock"></i> 24時間以内にメールにてご連絡いたします。</p>
+        <div class="footer-links-section">
+          <h4 class="footer-section-title">サイトマップ</h4>
+          <div class="footer-links">
+            <a href="#program">プログラム</a>
+            <a href="#staff">スタッフ</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+
+        <div class="footer-links-section">
+          <h4 class="footer-section-title">法的情報</h4>
+          <div class="footer-links">
+            <a href="terms.html">利用規約</a>
+            <a href="privacy.html">プライバシーポリシー</a>
+          </div>
         </div>
       </div>
-    </section>
-  </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-about">
-        <div class="footer-logo">
-          MediShift
-        </div>
-        <p class="footer-description">
-          医療従事者向けキャリアコーチング。元医療従事者があなたの企業転職を完全カスタマイズでサポートします。
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 MediShift. All rights reserved.
         </p>
       </div>
+    </footer>
 
-      <div class="footer-links-section">
-        <h4 class="footer-section-title">サイトマップ</h4>
-        <div class="footer-links">
-          <a href="#program">プログラム</a>
-          <a href="#staff">スタッフ</a>
-          <a href="#faq">FAQ</a>
-        </div>
-      </div>
-
-      <div class="footer-links-section">
-        <h4 class="footer-section-title">法的情報</h4>
-        <div class="footer-links">
-          <a href="terms.html">利用規約</a>
-          <a href="privacy.html">プライバシーポリシー</a>
-        </div>
-      </div>
+    <!-- Fixed CTA Button for Mobile -->
+    <div class="fixed-cta-mobile" id="fixed-cta">
+      <a href="#contact" class="btn-primary">
+        <i class="fas fa-calendar-check"></i> 無料相談を申し込む
+      </a>
     </div>
 
-    <div class="footer-bottom">
-      <p class="footer-copyright">&copy; 2026 MediShift. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <!-- Fixed CTA Button for Mobile -->
-  <div class="fixed-cta-mobile" id="fixed-cta">
-    <a href="#contact" class="btn-primary">
-      <i class="fas fa-calendar-check"></i> 無料相談を申し込む
-    </a>
-  </div>
-
-  <!-- JavaScript -->
-  <script src="js/hamburger.js"></script>
-  <script src="js/smooth-scroll.js"></script>
-  <script src="js/faq.js"></script>
-  <script src="js/scroll-animation.js"></script>
-  <script src="js/fixed-cta.js"></script>
-  <script src="js/contact-form.js"></script>
-  <script src="js/diagnosis.js"></script>
-</body>
+    <!-- JavaScript -->
+    <script src="js/hamburger.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/scroll-animation.js"></script>
+    <script src="js/fixed-cta.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/diagnosis.js"></script>
+  </body>
 </html>
