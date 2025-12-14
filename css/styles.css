@@ -1946,6 +1946,18 @@ section {
     display: none;
   }
 
+  .header-logo .logo-image {
+    height: 32px;
+  }
+
+  .header-logo .logo-text {
+    font-size: 18px;
+  }
+
+  .header-logo a {
+    gap: 8px;
+  }
+
   .hamburger {
     display: flex;
   }
