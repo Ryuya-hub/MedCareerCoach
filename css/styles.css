@@ -270,6 +270,17 @@ section {
   justify-content: space-between;
 }
 
+.header-logo a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-logo .logo-image {
+  height: 40px;
+  width: auto;
+}
+
 .header-logo .logo-text {
   font-size: 24px;
   font-weight: 700;
@@ -2599,7 +2610,7 @@ section {
   /* Header Logo Tap Target */
   .header-logo a {
     padding: 12px 0;
-    display: block;
+    display: flex;
   }
 
   /* Hamburger Menu Enhancement */
